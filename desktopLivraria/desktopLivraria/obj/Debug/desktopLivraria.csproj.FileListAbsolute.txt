@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\bin\Debug\desktopLivraria.exe.config
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\bin\Debug\desktopLivraria.exe
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\bin\Debug\desktopLivraria.pdb
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.fomr_login.resources
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.exe
+C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.pdb

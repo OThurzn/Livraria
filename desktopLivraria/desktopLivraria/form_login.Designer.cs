@@ -32,6 +32,7 @@
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.txt_user = new System.Windows.Forms.TextBox();
             this.txt_senha = new System.Windows.Forms.TextBox();
+            this.btn_acessar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -40,7 +41,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.25F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(836, 118);
+            this.label1.Location = new System.Drawing.Point(840, 133);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 44);
             this.label1.TabIndex = 0;
@@ -56,12 +57,24 @@
             // 
             // txt_senha
             // 
-            this.txt_senha.Location = new System.Drawing.Point(790, 322);
+            this.txt_senha.Location = new System.Drawing.Point(790, 298);
             this.txt_senha.Multiline = true;
             this.txt_senha.Name = "txt_senha";
             this.txt_senha.PasswordChar = '*';
             this.txt_senha.Size = new System.Drawing.Size(221, 48);
             this.txt_senha.TabIndex = 2;
+            // 
+            // btn_acessar
+            // 
+            this.btn_acessar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_acessar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
+            this.btn_acessar.ForeColor = System.Drawing.Color.White;
+            this.btn_acessar.Location = new System.Drawing.Point(790, 381);
+            this.btn_acessar.Name = "btn_acessar";
+            this.btn_acessar.Size = new System.Drawing.Size(221, 41);
+            this.btn_acessar.TabIndex = 3;
+            this.btn_acessar.Text = "Acessar";
+            this.btn_acessar.UseVisualStyleBackColor = false;
             // 
             // fomr_login
             // 
@@ -70,6 +83,7 @@
             this.BackgroundImage = global::desktopLivraria.Properties.Resources.Sem_título1;
             this.ClientSize = new System.Drawing.Size(1264, 793);
             this.ControlBox = false;
+            this.Controls.Add(this.btn_acessar);
             this.Controls.Add(this.txt_senha);
             this.Controls.Add(this.txt_user);
             this.Controls.Add(this.label1);
@@ -87,6 +101,7 @@
         private System.DirectoryServices.DirectoryEntry directoryEntry1;
         private System.Windows.Forms.TextBox txt_user;
         private System.Windows.Forms.TextBox txt_senha;
+        private System.Windows.Forms.Button btn_acessar;
     }
 }
 

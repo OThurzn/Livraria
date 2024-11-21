@@ -10,3 +10,4 @@ C:\Users\ds-etim-2\Desktop\AulaDS2MTEC\desktopLivraria\desktopLivraria\obj\Debug
 C:\Livraria\desktopLivraria\desktopLivraria\bin\Debug\desktopLivraria.exe.config
 C:\Livraria\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.exe
 C:\Livraria\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.pdb
+C:\Livraria\desktopLivraria\desktopLivraria\obj\Debug\desktopLivraria.csprojResolveAssemblyReference.cache

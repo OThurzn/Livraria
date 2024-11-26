@@ -43,8 +43,27 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.NOME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ISBN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDIOMA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AUTOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txt_usuario = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -117,7 +136,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Transparent;
             this.groupBox1.Location = new System.Drawing.Point(33, 103);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(435, 218);
+            this.groupBox1.Size = new System.Drawing.Size(513, 218);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
@@ -177,6 +196,149 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Livros Solicitados";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NOME,
+            this.ISBN,
+            this.IDIOMA,
+            this.AUTOR});
+            this.dataGridView1.Location = new System.Drawing.Point(677, 103);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(525, 218);
+            this.dataGridView1.TabIndex = 4;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dataGridView2.Location = new System.Drawing.Point(33, 451);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(1169, 350);
+            this.dataGridView2.TabIndex = 5;
+            // 
+            // NOME
+            // 
+            this.NOME.HeaderText = "NOME";
+            this.NOME.Name = "NOME";
+            this.NOME.Width = 150;
+            // 
+            // ISBN
+            // 
+            this.ISBN.HeaderText = "ISBN";
+            this.ISBN.Name = "ISBN";
+            this.ISBN.Width = 150;
+            // 
+            // IDIOMA
+            // 
+            this.IDIOMA.HeaderText = "IDIOMA";
+            this.IDIOMA.Name = "IDIOMA";
+            this.IDIOMA.Width = 150;
+            // 
+            // AUTOR
+            // 
+            this.AUTOR.HeaderText = "AUTOR";
+            this.AUTOR.Name = "AUTOR";
+            this.AUTOR.Width = 150;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Nome";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 230;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Cpf";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 216;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Telefone";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 230;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Data do pedido";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 230;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Quantidade de livros";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 220;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(432, 344);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 32);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Pesquisar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // txt_usuario
+            // 
+            this.txt_usuario.Location = new System.Drawing.Point(33, 344);
+            this.txt_usuario.Multiline = true;
+            this.txt_usuario.Name = "txt_usuario";
+            this.txt_usuario.Size = new System.Drawing.Size(370, 32);
+            this.txt_usuario.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(236, 384);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Ordenar Por:";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(33, 400);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(153, 32);
+            this.button2.TabIndex = 10;
+            this.button2.Text = " Mais recente";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(381, 400);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(165, 32);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Hoje";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(205, 400);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(158, 32);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "Mais antigo";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Form_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,17 +346,27 @@
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(1280, 832);
             this.ControlBox = false;
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txt_usuario);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView2);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_principal";
-            this.Text = "Form_principal";
+            this.Text = "   ";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,5 +388,22 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NOME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ISBN;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDIOMA;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AUTOR;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_usuario;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
